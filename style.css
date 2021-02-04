@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#canvas {
+	width: 990px;
+	height: 600px;
+	display: block;
+	margin: 30px auto;
+	border: 5px solid #000;
+	border-radius: 10px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+ 
+
+}
+
+#score1 {
+	width: 60px;
+	height: 60px;
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid #090;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+#score2 {
+	width: 60px;
+	height: 60px;
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid #900;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+#mode {
+	width: 60px;
+	height: 60px;
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid #009;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+
+#tbl1{
+ position: absolute;
+ left: 700px;
+ clear : both ;
+}
+
+
+#results {
+	width: 990px;
+        display: block;
+        clear : both ;
+}
+
+
