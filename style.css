@@ -13,6 +13,8 @@ body {
 }
 
 #canvas {
+        top:   75px;
+        position: relative;
 	width: 990px;
 	height: 600px;
 	display: block;
