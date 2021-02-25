@@ -13,8 +13,6 @@ body {
 }
 
 #canvas {
-        top:   75px;
-        position: relative;
 	width: 990px;
 	height: 600px;
 	display: block;
@@ -27,6 +25,37 @@ body {
 
 }
 
+#button1 , #button2 , #button3 ,#button4{
+	width: 60px;
+	height: 60px;
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid #770;
+	border-radius: 10px;
+	-webkit-background-size: cover;
+	background-size: cover;
+        background: #770;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+
+#button5 , #button6 , #button7 ,#button8{
+	width: 60px;
+	height: 60px;
+	padding-top: 1px;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	-webkit-background-size: cover;
+	background-size: cover;
+        background: #fff;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+
+
 #score1 {
 	width: 60px;
 	height: 60px;
@@ -35,7 +64,6 @@ body {
 	text-align: center;
 	border: 5px solid #090;
 	border-radius: 10px;
-	background-image: url(canvas_bg.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	font-size: 2.0rem;
@@ -49,7 +77,6 @@ body {
 	text-align: center;
 	border: 5px solid #900;
 	border-radius: 10px;
-	background-image: url(canvas_bg.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	font-size: 2.0rem;
@@ -63,7 +90,6 @@ body {
 	text-align: center;
 	border: 5px solid #009;
 	border-radius: 10px;
-	background-image: url(canvas_bg.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	font-size: 2.0rem;

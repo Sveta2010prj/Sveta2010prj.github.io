@@ -503,3 +503,62 @@ if(event.keyCode==38 && SnowmenPosition[1] === "D")
    dravprimer();
 
 }
+
+button1.ontouchend = function() {
+  if (!(SnowmenPosition == "LT"))
+  {
+    image = document.getElementById('IMJ_LT');
+    ctx.drawImage(image, 0, 0);
+    SnowmenPosition = "LT"
+  }
+
+ drawall();
+ if (modeV     == 'V')
+   dravprimer();
+
+
+}
+button3.ontouchend = function() {
+  if (!(SnowmenPosition == "LD"))
+  {
+    image = document.getElementById('IMJ_LD');
+    ctx.drawImage(image, 0, 0);
+    SnowmenPosition = "LD"
+  }
+ drawall();
+ if (modeV     == 'V')
+   dravprimer();
+
+}
+button2.ontouchend = function() {
+  if (!(SnowmenPosition == "RT"))
+  {
+    image = document.getElementById('IMJ_RT');
+    ctx.drawImage(image, 0, 0);
+    SnowmenPosition = "RT"
+  }
+ drawall();
+ if (modeV     == 'V')
+   dravprimer();
+
+
+}
+button4.ontouchend = function() {
+  if (!(SnowmenPosition == "RD"))
+  {
+    image = document.getElementById('IMJ_RD');
+    ctx.drawImage(image, 0, 0);
+    SnowmenPosition = "RD"
+  }
+ drawall();
+ if (modeV     == 'V')
+   dravprimer();
+
+
+}
+button1.onclick = button1.ontouchend;
+button2.onclick = button2.ontouchend;
+button3.onclick = button3.ontouchend;
+button4.onclick = button4.ontouchend;
+
+mode.ontouchend =   MultMode;
